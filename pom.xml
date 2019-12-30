@@ -12,6 +12,8 @@
         <module>EurekaServer1</module>
         <module>EurekaServer2</module>
         <module>EurekaServer3</module>
+        <module>Consumer_Web1</module>
+        <module>Consumer_Web2</module>
     </modules>
 
     <parent>
