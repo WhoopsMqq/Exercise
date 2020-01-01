@@ -7,6 +7,9 @@
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer1" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer2" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer3" />
+    <file type="web" url="file://$PROJECT_DIR$/Product_Service1" />
+    <file type="web" url="file://$PROJECT_DIR$/Product_Service2" />
+    <file type="web" url="file://$PROJECT_DIR$/Zuul" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

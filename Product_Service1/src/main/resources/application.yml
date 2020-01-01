@@ -1,0 +1,9 @@
+server:
+  port: 6001
+spring:
+  application:
+    name: service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8001/eureka/

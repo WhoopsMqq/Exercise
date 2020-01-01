@@ -11,6 +11,9 @@
         <module name="EurekaServer1" />
         <module name="EurekaServer2" />
         <module name="EurekaServer3" />
+        <module name="Product_Service1" />
+        <module name="Product_Service2" />
+        <module name="Zuul" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +24,9 @@
       <module name="EurekaServer1" options="-parameters" />
       <module name="EurekaServer2" options="-parameters" />
       <module name="EurekaServer3" options="-parameters" />
+      <module name="Product_Service1" options="-parameters" />
+      <module name="Product_Service2" options="-parameters" />
+      <module name="Zuul" options="-parameters" />
     </option>
   </component>
 </project>
