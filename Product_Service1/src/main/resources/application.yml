@@ -3,6 +3,21 @@ server:
 spring:
   application:
     name: service
+  datasource:
+    foreign:
+      driver-class-name=com: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/foreign?useSSL=true&serverTimezone=UTC&characterEncoding=utf-8
+      username: root
+      password: moon2003
+    domestic:
+      driver-class-name=com: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/domestic?useSSL=true&serverTimezone=UTC&characterEncoding=utf-8
+      username: root
+      password: moon2003
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: false
 eureka:
   client:
     service-url:
