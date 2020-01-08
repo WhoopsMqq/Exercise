@@ -1,0 +1,28 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<title>文章列表--layui后台管理模板 2.0</title>
+	<link rel="stylesheet" href="../css/public.css" media="all" />
+	<link rel="stylesheet" href="../layui/css/layui.css" media="all" />
+</head>
+<body class="childrenBody">
+<form class="layui-form">
+	<blockquote class="layui-elem-quote quoteBox">
+		<form class="layui-form">
+			<div class="layui-inline">
+				<a class="layui-btn layui-btn-normal domestic">国内产品</a>
+			</div>
+			<div class="layui-inline">
+				<a class="layui-btn layui-btn-normal foreign">国外产品</a>
+			</div>
+		</form>
+	</blockquote>
+	<table id="productList" lay-filter="productList"></table>
+</form>
+ <script type="text/javascript" src="../layui/layui.js"></script>
+<!--<script type="text/javascript" src="http://localhost:7001/layui/layui.js"></script>-->
+ <script type="text/javascript" src="../js/productList.js"></script>
+<!--<script type="text/javascript" src="http://localhost:7001/js/productList.js"></script>-->
+</body>
+</html>

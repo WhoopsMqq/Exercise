@@ -22,6 +22,7 @@ public class ProductController {
     @GetMapping("/getAllProducts")
     @ResponseBody
     public List<Product> getAllProducts(@RequestParam("type") String type){
+        System.out.println("product1");
         if (StringUtils.equals(type,"domestic")){
             return productService.getAllDomesticProducts();
         }else if (StringUtils.equals(type,"foreign")){
@@ -29,6 +30,8 @@ public class ProductController {
         }
         return null;
     }
+
+
 
 
 
