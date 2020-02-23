@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Consumer_Web1" />
     <file type="web" url="file://$PROJECT_DIR$/Consumer_Web2" />
-    <file type="web" url="file://$PROJECT_DIR$/EurekaServer1" />
+    <file type="web" url="file://$PROJECT_DIR$/EurekaServer" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer2" />
     <file type="web" url="file://$PROJECT_DIR$/EurekaServer3" />
-    <file type="web" url="file://$PROJECT_DIR$/Product_Service1" />
-    <file type="web" url="file://$PROJECT_DIR$/Product_Service2" />
+    <file type="web" url="file://$PROJECT_DIR$/Security" />
+    <file type="web" url="file://$PROJECT_DIR$/Service" />
+    <file type="web" url="file://$PROJECT_DIR$/Service2" />
+    <file type="web" url="file://$PROJECT_DIR$/Web" />
     <file type="web" url="file://$PROJECT_DIR$/Zuul" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,6 +17,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Consumer_Web2/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer2/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer3/pom.xml" />
+        <option value="$PROJECT_DIR$/Service2/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

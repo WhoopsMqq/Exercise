@@ -6,26 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Consumer_Web1" />
-        <module name="Consumer_Web2" />
-        <module name="EurekaServer1" />
-        <module name="EurekaServer2" />
-        <module name="EurekaServer3" />
-        <module name="Product_Service1" />
-        <module name="Product_Service2" />
+        <module name="EurekaServer" />
+        <module name="Security" />
+        <module name="Service" />
+        <module name="ServiceInterface" />
+        <module name="Web" />
         <module name="Zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Consumer_Web2" target="1.8" />
+      <module name="EurekaServer2" target="1.8" />
+      <module name="EurekaServer3" target="1.8" />
+      <module name="Service2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Consumer_Web1" options="-parameters" />
       <module name="Consumer_Web2" options="-parameters" />
-      <module name="EurekaServer1" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
       <module name="EurekaServer2" options="-parameters" />
       <module name="EurekaServer3" options="-parameters" />
-      <module name="Product_Service1" options="-parameters" />
-      <module name="Product_Service2" options="-parameters" />
+      <module name="Security" options="-parameters" />
+      <module name="Service" options="-parameters" />
+      <module name="Service2" options="-parameters" />
+      <module name="ServiceInterface" options="-parameters" />
+      <module name="Web" options="-parameters" />
       <module name="Zuul" options="-parameters" />
     </option>
   </component>

@@ -1,0 +1,12 @@
+#server:
+#  port: 5001
+spring:
+  application:
+    name: security
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8001/eureka/
+logging:
+  level:
+    org.springframework: debug
